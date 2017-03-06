@@ -43,7 +43,7 @@ class Rezume_model extends CI_Model
 
   public function add_record($data)
   {
-    # code...
+    
     $this->db->insert('professional_skills',$data);
     return;
   }
